@@ -1,5 +1,13 @@
 # UnOfficial ChainAbuse api
 
+## Usage
+```shell
+curl -X POST "http://localhost:8000/checkwallet" \
+  -H "Content-Type: application/json" \
+  -d '{"value":"WALLET_ADDRESS"}'
+
+➜  ~ {"reports":"1","types":["NFT Airdrop Scam 1"]}
+```
 
 ## Run
 
